@@ -59,10 +59,14 @@ const handleSubmit = (event) => {
  clear();
 };
 
+
+
 // Обробники введення інпутів 
 emailInput.addEventListener('input',handleInput);
 messageInput.addEventListener('input',handleInput);
-feedbackForm.addEventListener('submit',handleInput);
+feedbackForm.addEventListener('submit',handleSubmit);
+
+
 
 // Автозаповнення
 document.addEventListener('DOMContentLoaded', () => {
