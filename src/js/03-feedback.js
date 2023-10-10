@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import throttle from 'lodash.throttle';
 
 const emailInput = document.querySelector('input[name="email"]');
 const messageInput = document.querySelector('textarea[name="message"]');
