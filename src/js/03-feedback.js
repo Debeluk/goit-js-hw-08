@@ -18,7 +18,7 @@ const getStoredData = () => {
 };
 
 // Функція для зебережння
-const saveData = _.throttle(() => {
+const saveData = throttle(() => {
     dataToStore = {
         email: emailInput.value,
         message: messageInput.value,
